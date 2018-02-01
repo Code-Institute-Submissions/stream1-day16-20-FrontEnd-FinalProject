@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.max-viewport {
+    min-height: 100vh;
+}
+
+@-webkit-keyframes pulse_effect {
+  0%{
+    color: black;
+  }
+  50%{
+    color: gray;
+  }
+}
+
+#pulse {
+  -webkit-animation: pulse_effect 1s infinite alternate;
+}
+
+#logo a {
+  font-family: 'Roboto Mono', monospace;
+  color: #0c2c52;
+}
+
+#the_menu_h1, #the_menu_h2 {
+  display: none;
+}
+
+#dan_img {
+  opacity: 0.7;
+  width: 150px;
+}
+
+#banner i {
+    padding: 8px;
+    color: #669999;
+    font-size: 1.8em;
+}
+
+#hr_about_1, #hr_contact_1 {
+  opacity: 0.2;
+  width: 50%;
+}
+
+#hr_portfolio_1, #hr_footer_1 {
+  opacity: 0.8;
+  width: 50%;
+}
+
+#hr_theQuotes {
+  opacity: 0.2;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+#banner {
+    background: url(../img/banner-background.gif);
+}
+
+#about-image {
+    background: url(../img/about-scale.jpg);
+}
+
+#contact {
+    background: url(../img/progress-scale.jpg);
+}
+
+#about-image, #contact, #banner {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#feedback_message {
+  color: green;
+  font-size: 3em;
+}
+
+#theQuotes {
+  background-color: #cc6600;
+}

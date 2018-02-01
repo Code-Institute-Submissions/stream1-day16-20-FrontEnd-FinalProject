@@ -1,0 +1,79 @@
+Project Stream 1
+Dan Dumitrache resume website
+Manual testing
+
+===================================================================================
+
+Navigation bar (navbar section)
+
+Mobile/responsive
+It should be responsive/mobile-friendly. On mobile phones it should be collapsable.
+Tested - works as expected on mobile devices.
+
+Logo
+The last character of the element with the id="logo" is an underscore character which should pulsate imitating a terminal.
+Tested - works as expected.
+
+Links
+Each link of the navigation bar, on click, should link to a particular section of the website. On hover their color should be slightly changed.
+Tested - works as expected.
+
+===================================================================================
+
+Header (banner section)
+
+Mobile/responsive
+It should be responsive/mobile-friendly. It should rescale according to the screen size.
+Tested - works as expected on mobile devices.
+
+The picture with the id="dan_img" should appear after a delay of 0.5 seconds. It should appear using a zoom-in effect that should last for 2 seconds. Once completed it should have an opacity of 0.8 (1 maximum).
+Tested - works as expected.
+
+===================================================================================
+
+Skills (skills section)
+
+Mobile/responsive
+On mobile phone it should be a single column (three columns on larger screens).
+Tested - works as expected.
+
+The three columns should be animated. First column should fade-in from the left, the second column should fade-in from the top, and the third column should fade-in from the right.
+Tested - works as expected.
+
+===================================================================================
+
+About (about section)
+
+Mobile/responsive
+On mobile phone it should be a single column (two columns on larger screens).
+Tested - works as expected.
+
+The first column should have a parallax effect when scrolling.
+Tested - works as expected.
+
+The second column contains three paragraphs. In front of each paragraph should be an animated checkmark.
+Tested - work as expected.
+
+===================================================================================
+
+Portfolio (portfolio section)
+
+Mobile/responsive
+On mobile phone it should be a single column (three columns on larger screens).
+Tested - works as expected.
+
+Each of the three columns contains a picture which should zoom on mouseover.
+Tested - works as expected.
+
+===================================================================================
+
+Contact (contact section)
+
+Mobile/responsive
+On mobile phone the contact form should be responsive.
+Tested - works as expected.
+
+The contact form should validate before it is submitted. The validation is done with HTML5. Only if the information introduced in the validation form is correct the form will be submited. Once submitted a JavaScript function should be triggered and it should display an alert that says "Your message has been submitted successfully!".
+Tested - works as expected.
+
+
