@@ -3,7 +3,11 @@
 ## Overview
 
 ### General information
-This is Dan Dumitrache's resume website. It presents information about Dan as a full-stack web developer. It uses a single page layout devided into eight distinctive sections (navigation, banner, skills, about, portfolio, contact, quotes, and footer). The live version can be seen at 
+This is Dan Dumitrache's resume website. It presents information about Dan as a full-stack web developer. It uses a single page layout devided into eight distinctive sections (navigation, banner, skills, about, portfolio, contact, quotes, and footer). 
+
+### Links
+- The GitHub repository can be seen at (https://github.com/saigonro/stream1-day16-20-FrontEnd-FinalProject)
+- The live version can be seen at (https://saigonro.github.io/stream1-day16-20-FrontEnd-FinalProject/)
 
 ### Navigation through the website
 You can use the navigation menu which which sends you to a specific section of the website or just scroll down the page.
@@ -46,6 +50,9 @@ To view this website locally you have to download the entire repository on your 
 ### Media
 The photos used in this website were all taken by me, Dan Dumitrache.
 They were compressed and optimized for the web using Trimage Image Compressor (https://trimage.org/).
+
+### Wireframes
+The wireframes for this project are located in the wireframe folder in the root of the project.
 
 ### Icons
 Icons by:
